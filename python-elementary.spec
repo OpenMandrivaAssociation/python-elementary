@@ -10,6 +10,7 @@ Source0:	http://download.enlightenment.org/releases/BINDINGS/python/%{name}-%{ve
 BuildRequires:	pkgconfig(eina)
 BuildRequires:	pkgconfig(elementary)
 BuildRequires:	pkgconfig(evas)
+BuildRequires:	pkgconfig(eweather)
 BuildRequires:	pkgconfig(python-evas)
 BuildRequires:	python-cython
 %py_requires -d
