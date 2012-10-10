@@ -1,7 +1,7 @@
 Summary:	Elementary bindings for Python
 Name:		python-elementary
 Version:	1.7.0
-Release:	1
+Release:	2
 Group:		Graphical desktop/Enlightenment
 License:	GPLv2
 URL:		http://www.enlightenment.org/
@@ -21,6 +21,8 @@ Python support files for Elementary.
 %package devel
 Summary:	Development files for %{name}
 Group:		Development/Python
+Requires:	pkgconfig(eweather)
+Requires:	pkgconfig(python-evas)
 
 %description devel
 Development files for the Python wrapper for the Elementary libraries.
