@@ -34,6 +34,7 @@ NOCONFIGURE=yes ./autogen.sh
 
 %install
 %makeinstall_std
+chmod -R +x %{buildroot}/%{_datadir}/%{name}/examples/
 
 %files
 %doc README
