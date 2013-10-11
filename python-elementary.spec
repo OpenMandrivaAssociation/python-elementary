@@ -11,7 +11,6 @@ BuildRequires:	pkgconfig(eina)
 BuildRequires:	pkgconfig(elementary)
 BuildRequires:	pkgconfig(evas)
 BuildRequires:	pkgconfig(python-evas)
-BuildRequires:	python-cython
 %py_requires -d
 
 %description
