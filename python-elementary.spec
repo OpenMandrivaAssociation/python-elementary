@@ -8,11 +8,11 @@ URL:		http://www.enlightenment.org/
 Source0:	http://download.enlightenment.org/releases/BINDINGS/python/%{name}-%{version}.tar.bz2
 
 #BuildRequires:	pkgconfig(eina)
-BuildRequires:	pkgconfig(elementary)
+#BuildRequires:	pkgconfig(elementary)
 #BuildRequires:	pkgconfig(evas)
 #BuildRequires:	pkgconfig(python-evas)
-BuildRequires:	python-cython
-%py_requires -d
+#BuildRequires:	python-cython
+#%py_requires -d
 
 %description
 Python support files for Elementary.
