@@ -7,12 +7,11 @@ License:	GPLv2
 URL:		http://www.enlightenment.org/
 Source0:	http://download.enlightenment.org/releases/BINDINGS/python/%{name}-%{version}.tar.bz2
 
-#BuildRequires:	pkgconfig(eina)
-#BuildRequires:	pkgconfig(elementary)
-#BuildRequires:	pkgconfig(evas)
-#BuildRequires:	pkgconfig(python-evas)
-#BuildRequires:	python-cython
-#%py_requires -d
+#uildRequires:	pkgconfig(eina)
+#uildRequires:	pkgconfig(elementary)
+#uildRequires:	pkgconfig(evas)
+#uildRequires:	pkgconfig(python-evas)
+#uildRequires:	python-cython
 
 %description
 Python support files for Elementary.
