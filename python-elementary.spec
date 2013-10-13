@@ -12,6 +12,7 @@ BuildRequires:	pkgconfig(elementary)
 BuildRequires:	pkgconfig(evas)
 BuildRequires:	pkgconfig(python-evas)
 BuildRequires:	python-cython
+BuildRequires:	python-devel
 
 %description
 Python support files for Elementary.
